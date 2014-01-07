@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tip | Beacon Firecracker]]></title>
-  <link href="http://vitorpellegrino.com/blog/categories/tip/atom.xml" rel="self"/>
-  <link href="http://vitorpellegrino.com/"/>
-  <updated>2014-01-07T19:33:50-02:00</updated>
-  <id>http://vitorpellegrino.com/</id>
+  <title><![CDATA[Category: tip | Beacon Firecracker]]></title>
+  <link href="http://pellegrino.github.io/blog/categories/tip/atom.xml" rel="self"/>
+  <link href="http://pellegrino.github.io/"/>
+  <updated>2014-01-07T19:49:06-02:00</updated>
+  <id>http://pellegrino.github.io/</id>
   <author>
     <name><![CDATA[Vitor Pellegrino]]></name>
     
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Undefined Symbol SSLv2_method in Ubuntu 11.10 and 12.04 Alpha 1 Installing Lernanta]]></title>
-    <link href="http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/"/>
+    <title type="html"><![CDATA[Undefined symbol SSLv2_method in Ubuntu 11.10 and 12.04 Alpha 1 installing Lernanta]]></title>
+    <link href="http://pellegrino.github.io/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/"/>
     <updated>2012-01-11T00:00:00-02:00</updated>
-    <id>http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta</id>
+    <id>http://pellegrino.github.io/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta</id>
     <content type="html"><![CDATA[<p>Today i spent a couple of hours trying to get <a href="http://github.com/p2pu/lernanta">Lernanta</a> the Open Source application that supports <a href="http://p2pu.org">P2PU&rsquo;s</a> courses. If you are not familiar with any of those, i highly reccommend giving it a try. While trying to set up my local installation according to the <a href="https://github.com/p2pu/lernanta/wiki/Lernanta%27s-Setup-Install">Lernanta Installation Guide</a>, i ended up facing the following error:</p>
 
 <pre><code>Could not import users.views. 

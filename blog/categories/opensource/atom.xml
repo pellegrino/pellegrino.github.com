@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Opensource | Beacon Firecracker]]></title>
-  <link href="http://vitorpellegrino.com/blog/categories/opensource/atom.xml" rel="self"/>
-  <link href="http://vitorpellegrino.com/"/>
-  <updated>2014-01-07T19:33:50-02:00</updated>
-  <id>http://vitorpellegrino.com/</id>
+  <title><![CDATA[Category: opensource | Beacon Firecracker]]></title>
+  <link href="http://pellegrino.github.io/blog/categories/opensource/atom.xml" rel="self"/>
+  <link href="http://pellegrino.github.io/"/>
+  <updated>2014-01-07T19:49:06-02:00</updated>
+  <id>http://pellegrino.github.io/</id>
   <author>
     <name><![CDATA[Vitor Pellegrino]]></name>
     
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Introducing Jackpot: Billing Made Easy for Rails Applications]]></title>
-    <link href="http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/"/>
+    <title type="html"><![CDATA[Introducing Jackpot: Billing made easy for rails applications]]></title>
+    <link href="http://pellegrino.github.io/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/"/>
     <updated>2012-03-27T10:56:00-03:00</updated>
-    <id>http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps</id>
+    <id>http://pellegrino.github.io/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps</id>
     <content type="html"><![CDATA[<p>I would like to introduce you to my new open source project: <a href="https://github.com/pellegrino/jackpot">Jackpot</a>. It started out @ <a href="http://mendicantuniversity.org">Mendicant University</a> as my core skills project and now its going through a major overhaul to get ready to hit its primetime.</p>
 
 <p>Jackpot has pretty high ambitions, though. It aims to become the easiest way to get paid using rails. It abstracts all the nasty details about recurring payment processing and let you focus on writing your appliaction, not billing code. Billing code is a boring thing to write, so i expect you not having to do it all by yourself.</p>

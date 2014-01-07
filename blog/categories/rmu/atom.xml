@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Rmu | Beacon Firecracker]]></title>
-  <link href="http://vitorpellegrino.com/blog/categories/rmu/atom.xml" rel="self"/>
-  <link href="http://vitorpellegrino.com/"/>
-  <updated>2014-01-07T19:33:50-02:00</updated>
-  <id>http://vitorpellegrino.com/</id>
+  <title><![CDATA[Category: rmu | Beacon Firecracker]]></title>
+  <link href="http://pellegrino.github.io/blog/categories/rmu/atom.xml" rel="self"/>
+  <link href="http://pellegrino.github.io/"/>
+  <updated>2014-01-07T19:49:06-02:00</updated>
+  <id>http://pellegrino.github.io/</id>
   <author>
     <name><![CDATA[Vitor Pellegrino]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby Mendicant University]]></title>
-    <link href="http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university/"/>
+    <link href="http://pellegrino.github.io/blog/2011/06/01/ruby-mendicant-university/"/>
     <updated>2011-06-01T00:00:00-03:00</updated>
-    <id>http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university</id>
+    <id>http://pellegrino.github.io/blog/2011/06/01/ruby-mendicant-university</id>
     <content type="html"><![CDATA[<p>Im really proud to announce that i am the 43rd student to join #RbMU alumni network. The course was a very intense, 3 week long, about Ruby development, <a href="http://en.wikipedia.org/wiki/Open-source_software">OSS</a> and Application Design in general. That was a really awesome experience. In short, if you are a ruby developer and want to take your skills seriously, you <em>should</em> look in doing the Core Skills ASAP. :)</p>
 
 <h2>Is that a really tough course?</h2>

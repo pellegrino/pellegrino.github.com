@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://vitorpellegrino.com/sitemap.xml 
+Sitemap: http://pellegrino.github.io/sitemap.xml 

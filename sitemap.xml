@@ -1,51 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://vitorpellegrino.com/blog/2011/05/30/hello-again/</loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
+        <loc>http://pellegrino.github.io/blog/2011/05/30/hello-again/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
-        <loc>http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university/</loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://vitorpellegrino.com/blog/2011/07/04/let-your-clients-approve-your-stories-with-whereuat/
-        </loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
+        <loc>http://pellegrino.github.io/blog/2011/06/01/ruby-mendicant-university/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
         <loc>
-            http://vitorpellegrino.com/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem/
+            http://pellegrino.github.io/blog/2011/07/04/let-your-clients-approve-your-stories-with-whereuat/
         </loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
         <loc>
-            http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/
+            http://pellegrino.github.io/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem/
         </loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
         <loc>
-            http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/
+            http://pellegrino.github.io/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/
         </loc>
-        <lastmod>2014-01-07T19:33:06-02:00</lastmod>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
-        <loc>http://vitorpellegrino.com/blog/2014/01/07/goals-for-2014/</loc>
-        <lastmod>2014-01-07T19:33:50-02:00</lastmod>
+        <loc>
+            http://pellegrino.github.io/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/
+        </loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
-        <loc>http://vitorpellegrino.com/blog/archives/</loc>
-        <lastmod>2014-01-07T19:33:50-02:00</lastmod>
+        <loc>http://pellegrino.github.io/blog/2014/01/07/goals-for-2014/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
-        <loc>http://vitorpellegrino.com/robots.txt</loc>
-        <lastmod>2014-01-07T19:30:54-02:00</lastmod>
+        <loc>http://pellegrino.github.io/blog/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
     <url>
-        <loc>http://vitorpellegrino.com/</loc>
-        <lastmod>2014-01-07T19:33:50-02:00</lastmod>
+        <loc>http://pellegrino.github.io/blog/archives/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://pellegrino.github.io/robots.txt</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://pellegrino.github.io/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://pellegrino.github.io/archives/</loc>
+        <lastmod>2014-01-07T19:48:40-02:00</lastmod>
     </url>
 </urlset>
