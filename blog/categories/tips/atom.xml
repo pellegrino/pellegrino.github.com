@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tips | Beacon Firecracker]]></title>
+  <link href="http://vitorpellegrino.com/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://vitorpellegrino.com/"/>
+  <updated>2014-01-07T19:33:50-02:00</updated>
+  <id>http://vitorpellegrino.com/</id>
+  <author>
+    <name><![CDATA[Vitor Pellegrino]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Speeding Up MySQL at Linux and Ext4 Filesystem]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem/"/>
+    <updated>2011-09-08T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem</id>
+    <content type="html"><![CDATA[<p>Since i switched back from Mac OS X to Linux, i noticed some of my rails apps were running its tests much slower (almost 10 times slower in few cases).</p>
+
+<p>After many wrong guesses and false alarms, i found out that MySQL doesnt like much ext4 ubuntu default settings.</p>
+
+<p>I hope it can help fellow googlers facing this very same issue. After adding some minor tweaks at my ext4 partition, my test suite now runs under 3 seconds. Before those changes, it used to last almost 80s!</p>
+
+<h2>TL ; DR</h2>
+
+<p>Add <strong>barrier=0</strong> to your fstab, restart your machine, and MySQL will run <em>much</em> faster.</p>
+
+<p>Mine fstab entry is currently like this, feel free to change that accordingly to your needs:</p>
+
+<pre><code># / was on /dev/sda6 during installation
+UUID=98e8b440-fd76-4e49-b45a-e8e3c9dec2e4 / ext4    errors=remount-ro,noatime,data=writeback,barrier=0,nobh 0 1
+</code></pre>
+
+<p>For more information regarding ext4 and those tweaks im using, check this <em>awesome</em> <a href="http://blog.smartlogicsolutions.com/2009/06/04/mount-options-to-improve-ext4-file-system-performance/">blog post</a> from <a href="http://www.ngauthier.com/">Nick Gauthier</a></p>
+]]></content>
+  </entry>
+  
+</feed>

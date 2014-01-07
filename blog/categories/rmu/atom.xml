@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rmu | Beacon Firecracker]]></title>
+  <link href="http://vitorpellegrino.com/blog/categories/rmu/atom.xml" rel="self"/>
+  <link href="http://vitorpellegrino.com/"/>
+  <updated>2014-01-07T19:33:50-02:00</updated>
+  <id>http://vitorpellegrino.com/</id>
+  <author>
+    <name><![CDATA[Vitor Pellegrino]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Mendicant University]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university/"/>
+    <updated>2011-06-01T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university</id>
+    <content type="html"><![CDATA[<p>Im really proud to announce that i am the 43rd student to join #RbMU alumni network. The course was a very intense, 3 week long, about Ruby development, <a href="http://en.wikipedia.org/wiki/Open-source_software">OSS</a> and Application Design in general. That was a really awesome experience. In short, if you are a ruby developer and want to take your skills seriously, you <em>should</em> look in doing the Core Skills ASAP. :)</p>
+
+<h2>Is that a really tough course?</h2>
+
+<p>Yes. <em>Definitely</em> it is. Gregory (@seacreature) and all the mentors really do push you hard to go even further (which is great!). Looking back, i never thought i could acomplish that much in so little time. I was envolved almost my entire career in Web Development, so i never did some sort of &ldquo;tool development&rdquo; before. That was something i really was looking forward to change, and RMU was the perfect excuse for me to do it :)</p>
+
+<h2>My personal experience about it</h2>
+
+<p>Before joining RMU, i considered myself a pretty competent Ruby Developer, given the fact i&rsquo;m on rails since 2006, so wasn&rsquo;t very sure about what i could expect from this. The fact is that i <em>really did learn a bunch</em>. The course is aimed at Intermediate Ruby developers, but i&rsquo;m sure that anyone would benefit a lot from this kind of experience. The amount of feedback you receive during the course is ridiculus.</p>
+
+<p>To be honest, i never thought (even after seeing so nice feedback from other alumni) that the interaction between student could be so strong, since there were no such thing as classes during the course &ndash; most of our comunication happened in a asynchronous fashion &ndash; but i was plain wrong. It was simply awesome to see how <em>everyone</em> did improve during the course and a &ldquo;colleague spirit&rdquo; did emerge from that. During the first week, most of the feedback were given by the instructors and mentors, but quickly my peers were giving me lot of quality advices and i felt very comfortable to do the same for them. I must say that, after these 3 weeks i&rsquo;m a reassured about open source development in general.</p>
+
+<p>If you value the RMU much like i do, i hope you will <a href="http://blog.rubybestpractices.com/posts/gregory/042-mendicant-supporters.html">help it to keep on rocking</a> and providing top notch trainning for Ruby developers worldwide.</p>
+]]></content>
+  </entry>
+  
+</feed>

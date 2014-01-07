@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tip | Beacon Firecracker]]></title>
+  <link href="http://vitorpellegrino.com/blog/categories/tip/atom.xml" rel="self"/>
+  <link href="http://vitorpellegrino.com/"/>
+  <updated>2014-01-07T19:33:50-02:00</updated>
+  <id>http://vitorpellegrino.com/</id>
+  <author>
+    <name><![CDATA[Vitor Pellegrino]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Undefined Symbol SSLv2_method in Ubuntu 11.10 and 12.04 Alpha 1 Installing Lernanta]]></title>
+    <link href="http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/"/>
+    <updated>2012-01-11T00:00:00-02:00</updated>
+    <id>http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta</id>
+    <content type="html"><![CDATA[<p>Today i spent a couple of hours trying to get <a href="http://github.com/p2pu/lernanta">Lernanta</a> the Open Source application that supports <a href="http://p2pu.org">P2PU&rsquo;s</a> courses. If you are not familiar with any of those, i highly reccommend giving it a try. While trying to set up my local installation according to the <a href="https://github.com/p2pu/lernanta/wiki/Lernanta%27s-Setup-Install">Lernanta Installation Guide</a>, i ended up facing the following error:</p>
+
+<pre><code>Could not import users.views. 
+Error was: /home/vitor/.virtualenvs/lernanta/local/lib/python2.7/site-packages/M2Crypto/__m2crypto.so: 
+undefined symbol: SSLv2_method
+</code></pre>
+
+<p>After a little bit of researching and googling around, i found out that this error was related to the absence of SSLv2 in Ubuntu&rsquo;s OpenSSL package. The Ubuntu people build OpenSSL without SSLv2 support because the protocol has known security issues. This was introduced in 11.10 version and it also happens in 12.04 Alpha 1.</p>
+
+<p>The following links are related to this issue.</p>
+
+<ul>
+<li><a href="https://github.com/saltstack/salt/issues/391">https://github.com/saltstack/salt/issues/391</a></li>
+<li><a href="https://lists.launchpad.net/openstack/msg06427.html">https://lists.launchpad.net/openstack/msg06427.html</a></li>
+</ul>
+
+
+<h2>Solution:</h2>
+
+<p>The installation guide instruct us to create our virtualenv using the command:</p>
+
+<pre><code>mkvirtualenv lernanta
+</code></pre>
+
+<p>However, virtual env now changed its default behavior. It seems that since 1.7 version is out one must provide the &mdash;system-site-packages trigger modifier to have the old behavior back and have virtualenv also look for system wide packages and use the apt-get version we installed while following the Installation Guide.</p>
+
+<pre><code>mkvirtualenv --system-site-packages lernanta
+</code></pre>
+
+<p>Creating your virtualenv this way, will make virtualenv work as expected in documentation and, finally, make your Lernanta installation work as expected.</p>
+
+<p>More information about this subject can be found in this link.</p>
+
+<ul>
+<li><a href="https://github.com/pypa/virtualenv/issues/210">https://github.com/pypa/virtualenv/issues/210</a></li>
+</ul>
+
+
+<p>I hope it was helpful!</p>
+
+<p>See you next time,</p>
+]]></content>
+  </entry>
+  
+</feed>

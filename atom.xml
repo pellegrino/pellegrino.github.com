@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Beacon Firecracker]]></title>
+  <link href="http://vitorpellegrino.com/atom.xml" rel="self"/>
+  <link href="http://vitorpellegrino.com/"/>
+  <updated>2014-01-07T19:33:50-02:00</updated>
+  <id>http://vitorpellegrino.com/</id>
+  <author>
+    <name><![CDATA[Vitor Pellegrino]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Goals for 2014]]></title>
+    <link href="http://vitorpellegrino.com/blog/2014/01/07/goals-for-2014/"/>
+    <updated>2014-01-07T18:53:00-02:00</updated>
+    <id>http://vitorpellegrino.com/blog/2014/01/07/goals-for-2014</id>
+    <content type="html"><![CDATA[<p>Keeping the same idea of the previous year, I&rsquo;ve decided to commit myself to no more than 3 different goals for this year. The reason for this is to maintain focus and not sign me up for more things that I&rsquo;m able/willing to do each time.</p>
+
+<p>Things that I will be doing this year:</p>
+
+<h2>Weigh 90kg or more with 10%BF or less by my 30th birthday.</h2>
+
+<p>Before my 30th birthday I will be achieving my always wanted physique. I want to celebrate my 30th birthday enjoying my best phisique so far.</p>
+
+<p>Milestones:</p>
+
+<ul>
+<li>April 18th: Weigh 90kg with less than 20%BF</li>
+<li>September 15th: Weigh 90kg averaging 13%BF</li>
+<li>November 17th: Weigh 90~95kg with 10%BF at most</li>
+</ul>
+
+
+<h2>5 German writing exercises every week.</h2>
+
+<p>I consider this one to be pretty self-explanatory: I will be doing german writing exercises at least 5 times each week in order to improve my (very poor) written german and acquire overall fluency.</p>
+
+<p>As a &ldquo;side-goal&rdquo; of this one, I will tentatively obtain the C1 prüfung by late may, early june. These exercises will be published and documented so I can see the overall improvement with</p>
+
+<h2>Will write a technical blogpost every month this year.</h2>
+
+<p>At the beginning of the month, I will elect a topic and spend the month researching about it and produce a blog post in vitorpellegrino.com with the results of it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Jackpot: Billing Made Easy for Rails Applications]]></title>
+    <link href="http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/"/>
+    <updated>2012-03-27T10:56:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps</id>
+    <content type="html"><![CDATA[<p>I would like to introduce you to my new open source project: <a href="https://github.com/pellegrino/jackpot">Jackpot</a>. It started out @ <a href="http://mendicantuniversity.org">Mendicant University</a> as my core skills project and now its going through a major overhaul to get ready to hit its primetime.</p>
+
+<p>Jackpot has pretty high ambitions, though. It aims to become the easiest way to get paid using rails. It abstracts all the nasty details about recurring payment processing and let you focus on writing your appliaction, not billing code. Billing code is a boring thing to write, so i expect you not having to do it all by yourself.</p>
+
+<h2>YUNO USE X OR Y..!?!11</h2>
+
+<p>There <a href="http://chargify.com">are</a> <a href="https://cheddargetter.com/">a</a> <a href="http://stripe.com">lot</a> of great solutions available, the problem is that many of them are restricted to certain countries. Being outside US and the UK, i know how painful it is to roll your own Billing solution everytime you start a new SaaS project. Also there are people that prefer having more control about their own billing solution or might not need all the advanced functionalities these solutions provide.</p>
+
+<p>There are also a few open source projects, but most are quite outdated and do not take full advantage of more current solutions. Jackpot was designed to be easily distributed via Rails Engines, so it can be mounted in any Rails 3.1 or 3.2 application.</p>
+
+<h3>Active Merchant</h3>
+
+<p>Jackpot also relies on the great time tested project brought up by the fantastic guys at Shopify <a href="https://github.com/Shopify/active_merchant">ActiveMerchant</a>. Jackpot uses it to interact with Gateways, so providing it with any Active Merchant gateway with card storage support will work. This card storage support is really important, since you will not want to do it by yourself, which would make getting PCI Compliance much harder. Jackpot does not and will not record any sort of credit card information.</p>
+
+<p>Unlike Active Merchant, Jackpot was designed to provide a full yet simple  billing solution for SaaS apps, which means it takes care of subscriptions, customers and charging your customers monthly. In practice, Jackpot takes care of those details you would have to do within your application.</p>
+
+<h2>Current Status</h2>
+
+<p>Please, be aware that this project its in a super alpha state and that there are some rough edges yet to be polished. Right now it only supports Braintree and lacks features such as Invoicing and Mailing. Currently, you can use it to create your subscriptions, track your customers and processing monthly payment using a Cron process ready to roll.</p>
+
+<p>You can see the source code at <a href="http://github.com/pellegrino/jackpot">http://github.com/pellegrino/jackpot</a> and also see a little rails 3.2 <a href="http://github.com/pellegrino/jackpot-demo">demo application</a>.</p>
+
+<p>I hope you like the project and that it may be useful to you as well. Your feedback is highly appreciated, leave your comments below or feel free to reach me at IRC. My username is <em>pellegrino</em> @freenode and i&rsquo;m happy to help.</p>
+
+<p>Stay tuned for more!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Undefined Symbol SSLv2_method in Ubuntu 11.10 and 12.04 Alpha 1 Installing Lernanta]]></title>
+    <link href="http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta/"/>
+    <updated>2012-01-11T00:00:00-02:00</updated>
+    <id>http://vitorpellegrino.com/blog/2012/01/11/undefined-symbol-sslv2-method-in-ubuntu-11-10-and-12-04-alpha-1-installing-lernanta</id>
+    <content type="html"><![CDATA[<p>Today i spent a couple of hours trying to get <a href="http://github.com/p2pu/lernanta">Lernanta</a> the Open Source application that supports <a href="http://p2pu.org">P2PU&rsquo;s</a> courses. If you are not familiar with any of those, i highly reccommend giving it a try. While trying to set up my local installation according to the <a href="https://github.com/p2pu/lernanta/wiki/Lernanta%27s-Setup-Install">Lernanta Installation Guide</a>, i ended up facing the following error:</p>
+
+<pre><code>Could not import users.views. 
+Error was: /home/vitor/.virtualenvs/lernanta/local/lib/python2.7/site-packages/M2Crypto/__m2crypto.so: 
+undefined symbol: SSLv2_method
+</code></pre>
+
+<p>After a little bit of researching and googling around, i found out that this error was related to the absence of SSLv2 in Ubuntu&rsquo;s OpenSSL package. The Ubuntu people build OpenSSL without SSLv2 support because the protocol has known security issues. This was introduced in 11.10 version and it also happens in 12.04 Alpha 1.</p>
+
+<p>The following links are related to this issue.</p>
+
+<ul>
+<li><a href="https://github.com/saltstack/salt/issues/391">https://github.com/saltstack/salt/issues/391</a></li>
+<li><a href="https://lists.launchpad.net/openstack/msg06427.html">https://lists.launchpad.net/openstack/msg06427.html</a></li>
+</ul>
+
+
+<h2>Solution:</h2>
+
+<p>The installation guide instruct us to create our virtualenv using the command:</p>
+
+<pre><code>mkvirtualenv lernanta
+</code></pre>
+
+<p>However, virtual env now changed its default behavior. It seems that since 1.7 version is out one must provide the &mdash;system-site-packages trigger modifier to have the old behavior back and have virtualenv also look for system wide packages and use the apt-get version we installed while following the Installation Guide.</p>
+
+<pre><code>mkvirtualenv --system-site-packages lernanta
+</code></pre>
+
+<p>Creating your virtualenv this way, will make virtualenv work as expected in documentation and, finally, make your Lernanta installation work as expected.</p>
+
+<p>More information about this subject can be found in this link.</p>
+
+<ul>
+<li><a href="https://github.com/pypa/virtualenv/issues/210">https://github.com/pypa/virtualenv/issues/210</a></li>
+</ul>
+
+
+<p>I hope it was helpful!</p>
+
+<p>See you next time,</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Speeding Up MySQL at Linux and Ext4 Filesystem]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem/"/>
+    <updated>2011-09-08T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/09/08/speeding-up-mysql-at-linux-ext4-filesystem</id>
+    <content type="html"><![CDATA[<p>Since i switched back from Mac OS X to Linux, i noticed some of my rails apps were running its tests much slower (almost 10 times slower in few cases).</p>
+
+<p>After many wrong guesses and false alarms, i found out that MySQL doesnt like much ext4 ubuntu default settings.</p>
+
+<p>I hope it can help fellow googlers facing this very same issue. After adding some minor tweaks at my ext4 partition, my test suite now runs under 3 seconds. Before those changes, it used to last almost 80s!</p>
+
+<h2>TL ; DR</h2>
+
+<p>Add <strong>barrier=0</strong> to your fstab, restart your machine, and MySQL will run <em>much</em> faster.</p>
+
+<p>Mine fstab entry is currently like this, feel free to change that accordingly to your needs:</p>
+
+<pre><code># / was on /dev/sda6 during installation
+UUID=98e8b440-fd76-4e49-b45a-e8e3c9dec2e4 / ext4    errors=remount-ro,noatime,data=writeback,barrier=0,nobh 0 1
+</code></pre>
+
+<p>For more information regarding ext4 and those tweaks im using, check this <em>awesome</em> <a href="http://blog.smartlogicsolutions.com/2009/06/04/mount-options-to-improve-ext4-file-system-performance/">blog post</a> from <a href="http://www.ngauthier.com/">Nick Gauthier</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Let Your Client Approve Your Pivotal Stories With Whereuat]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/07/04/let-your-clients-approve-your-stories-with-whereuat/"/>
+    <updated>2011-07-04T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/07/04/let-your-clients-approve-your-stories-with-whereuat</id>
+    <content type="html"><![CDATA[<p>Yesterday i&rsquo;ve been playing with this project called <a href="https://github.com/plus2/whereuat">whereuat</a>. This project is a very neat idea which enables your users to give feedback, approve and reject  stories marked as delivered directly at your pivotal tracker.</p>
+
+<p>The application is pretty simple by itself. Its basically a scaffold for recipes, with whereuat integration.</p>
+
+<p>For anyone working in a situation where clients or even QA are required to participate more closely at the development process, i would recommend it to give whereuat a look.</p>
+
+<h2>Check the examples</h2>
+
+<p>You can see the code for this application in:  <br/>
+<a href="https://github.com/pellegrino/whereuatdemo">https://github.com/pellegrino/whereuatdemo</a></p>
+
+<p>To see it running at heroku: <br/>
+<a href="http://whereuatdemo.heroku.com/recipes">http://whereuatdemo.heroku.com/recipes</a></p>
+
+<p>The storyboard used in this example can also be viewed here:  <br/>
+<a href="https://www.pivotaltracker.com/projects/323133">https://www.pivotaltracker.com/projects/323133</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Mendicant University]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university/"/>
+    <updated>2011-06-01T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/06/01/ruby-mendicant-university</id>
+    <content type="html"><![CDATA[<p>Im really proud to announce that i am the 43rd student to join #RbMU alumni network. The course was a very intense, 3 week long, about Ruby development, <a href="http://en.wikipedia.org/wiki/Open-source_software">OSS</a> and Application Design in general. That was a really awesome experience. In short, if you are a ruby developer and want to take your skills seriously, you <em>should</em> look in doing the Core Skills ASAP. :)</p>
+
+<h2>Is that a really tough course?</h2>
+
+<p>Yes. <em>Definitely</em> it is. Gregory (@seacreature) and all the mentors really do push you hard to go even further (which is great!). Looking back, i never thought i could acomplish that much in so little time. I was envolved almost my entire career in Web Development, so i never did some sort of &ldquo;tool development&rdquo; before. That was something i really was looking forward to change, and RMU was the perfect excuse for me to do it :)</p>
+
+<h2>My personal experience about it</h2>
+
+<p>Before joining RMU, i considered myself a pretty competent Ruby Developer, given the fact i&rsquo;m on rails since 2006, so wasn&rsquo;t very sure about what i could expect from this. The fact is that i <em>really did learn a bunch</em>. The course is aimed at Intermediate Ruby developers, but i&rsquo;m sure that anyone would benefit a lot from this kind of experience. The amount of feedback you receive during the course is ridiculus.</p>
+
+<p>To be honest, i never thought (even after seeing so nice feedback from other alumni) that the interaction between student could be so strong, since there were no such thing as classes during the course &ndash; most of our comunication happened in a asynchronous fashion &ndash; but i was plain wrong. It was simply awesome to see how <em>everyone</em> did improve during the course and a &ldquo;colleague spirit&rdquo; did emerge from that. During the first week, most of the feedback were given by the instructors and mentors, but quickly my peers were giving me lot of quality advices and i felt very comfortable to do the same for them. I must say that, after these 3 weeks i&rsquo;m a reassured about open source development in general.</p>
+
+<p>If you value the RMU much like i do, i hope you will <a href="http://blog.rubybestpractices.com/posts/gregory/042-mendicant-supporters.html">help it to keep on rocking</a> and providing top notch trainning for Ruby developers worldwide.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Again]]></title>
+    <link href="http://vitorpellegrino.com/blog/2011/05/30/hello-again/"/>
+    <updated>2011-05-30T00:00:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2011/05/30/hello-again</id>
+    <content type="html"><![CDATA[<p>Blogging and open-source are two things i&rsquo;ve always wanted to do more
+seriously but never knew how to get started. After
+<a href="http://university.rubymendicant.com">RMU</a> (BTW, if you are serious
+about mastering Ruby and OSS development, THIS is the place) i felt i
+needed a whole refresh at this space.</p>
+
+<p>Since i&rsquo;m most of my day at Emacs and <a href="http://github.com">Github</a>,
+<a href="https://github.com/mojombo/jekyll">Jekyll</a> was perfect fit for my
+current setup. I hope it works for me.</p>
+]]></content>
+  </entry>
+  
+</feed>

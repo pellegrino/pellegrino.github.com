@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Opensource | Beacon Firecracker]]></title>
+  <link href="http://vitorpellegrino.com/blog/categories/opensource/atom.xml" rel="self"/>
+  <link href="http://vitorpellegrino.com/"/>
+  <updated>2014-01-07T19:33:50-02:00</updated>
+  <id>http://vitorpellegrino.com/</id>
+  <author>
+    <name><![CDATA[Vitor Pellegrino]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Jackpot: Billing Made Easy for Rails Applications]]></title>
+    <link href="http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps/"/>
+    <updated>2012-03-27T10:56:00-03:00</updated>
+    <id>http://vitorpellegrino.com/blog/2012/03/27/jackpot-billing-made-easy-for-rails-apps</id>
+    <content type="html"><![CDATA[<p>I would like to introduce you to my new open source project: <a href="https://github.com/pellegrino/jackpot">Jackpot</a>. It started out @ <a href="http://mendicantuniversity.org">Mendicant University</a> as my core skills project and now its going through a major overhaul to get ready to hit its primetime.</p>
+
+<p>Jackpot has pretty high ambitions, though. It aims to become the easiest way to get paid using rails. It abstracts all the nasty details about recurring payment processing and let you focus on writing your appliaction, not billing code. Billing code is a boring thing to write, so i expect you not having to do it all by yourself.</p>
+
+<h2>YUNO USE X OR Y..!?!11</h2>
+
+<p>There <a href="http://chargify.com">are</a> <a href="https://cheddargetter.com/">a</a> <a href="http://stripe.com">lot</a> of great solutions available, the problem is that many of them are restricted to certain countries. Being outside US and the UK, i know how painful it is to roll your own Billing solution everytime you start a new SaaS project. Also there are people that prefer having more control about their own billing solution or might not need all the advanced functionalities these solutions provide.</p>
+
+<p>There are also a few open source projects, but most are quite outdated and do not take full advantage of more current solutions. Jackpot was designed to be easily distributed via Rails Engines, so it can be mounted in any Rails 3.1 or 3.2 application.</p>
+
+<h3>Active Merchant</h3>
+
+<p>Jackpot also relies on the great time tested project brought up by the fantastic guys at Shopify <a href="https://github.com/Shopify/active_merchant">ActiveMerchant</a>. Jackpot uses it to interact with Gateways, so providing it with any Active Merchant gateway with card storage support will work. This card storage support is really important, since you will not want to do it by yourself, which would make getting PCI Compliance much harder. Jackpot does not and will not record any sort of credit card information.</p>
+
+<p>Unlike Active Merchant, Jackpot was designed to provide a full yet simple  billing solution for SaaS apps, which means it takes care of subscriptions, customers and charging your customers monthly. In practice, Jackpot takes care of those details you would have to do within your application.</p>
+
+<h2>Current Status</h2>
+
+<p>Please, be aware that this project its in a super alpha state and that there are some rough edges yet to be polished. Right now it only supports Braintree and lacks features such as Invoicing and Mailing. Currently, you can use it to create your subscriptions, track your customers and processing monthly payment using a Cron process ready to roll.</p>
+
+<p>You can see the source code at <a href="http://github.com/pellegrino/jackpot">http://github.com/pellegrino/jackpot</a> and also see a little rails 3.2 <a href="http://github.com/pellegrino/jackpot-demo">demo application</a>.</p>
+
+<p>I hope you like the project and that it may be useful to you as well. Your feedback is highly appreciated, leave your comments below or feel free to reach me at IRC. My username is <em>pellegrino</em> @freenode and i&rsquo;m happy to help.</p>
+
+<p>Stay tuned for more!</p>
+]]></content>
+  </entry>
+  
+</feed>
